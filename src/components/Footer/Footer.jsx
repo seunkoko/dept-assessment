@@ -82,9 +82,7 @@ const Footer = (props) => {
 
         <div className="to-top hide-on-phone">
           <div id="return-to-top">
-            <Link
-              to="#"
-            >
+            <Link to="#">
               <i className="fas fa-long-arrow-alt-up"/>
               <p>
                 TOP

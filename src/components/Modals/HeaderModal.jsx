@@ -28,10 +28,6 @@ const HeaderModal = (props) => {
                   </li>
                   
                   <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                    {/* <div className="bar-container">
-                      <div className="hm-bar1 transition-bar-1"></div>
-                      <div className="hm-bar2 transition-bar-2"></div>
-                    </div> */}
                     <i className="fas fa-times color-white"></i>
                   </button>
                 </ul>

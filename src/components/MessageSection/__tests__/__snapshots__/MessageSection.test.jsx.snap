@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageSection should render MessageSection component 1`] = `
+<Fragment>
+  <div
+    className="container-fluid message-section-style"
+  >
+    <div>
+      <div
+        className="question-style"
+      >
+        <p>
+          QUESTION?
+        </p>
+        <p>
+          WE ARE HERE
+        </p>
+        <p>
+          TO HELP!
+        </p>
+      </div>
+      <form>
+        <div
+          className="form-style"
+        >
+          <div>
+            <div
+              className="form-group input-container"
+            >
+              <label
+                htmlFor="name"
+              >
+                Name
+              </label>
+              <input
+                aria-describedby="nameHelp"
+                className="form-control form-control-sm input-style"
+                id="name"
+                name="name"
+                type="text"
+              />
+              <small
+                className="form-text red-text"
+                id="nameHelp"
+              />
+            </div>
+            <div
+              className="form-group input-container"
+            >
+              <label
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <input
+                aria-describedby="emailHelp"
+                className="form-control form-control-sm email input-style"
+                id="email"
+                name="email"
+                type="email"
+              />
+              <small
+                className="form-text red-text"
+                id="emailHelp"
+              />
+            </div>
+            <div
+              className="form-group input-container"
+            >
+              <label
+                htmlFor="message"
+              >
+                Message
+              </label>
+              <textarea
+                aria-describedby="messageHelp"
+                className="form-control form-control-sm input-style"
+                id="message"
+                name="message"
+                type="text"
+              />
+              <small
+                className="form-text red-text"
+                id="messageHelp"
+              />
+            </div>
+          </div>
+          <button
+            className="btn btn-send-message"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render Home component 1`] = `
+<div
+  className="Home"
+>
+  <Header />
+  <MainSection
+    email=""
+    emailError=""
+    handleAlertClose={[Function]}
+    handleOnChange={[Function]}
+    handleSubmitMessage={[Function]}
+    message=""
+    messageError=""
+    name=""
+    nameError=""
+    successMessage=""
+  />
+</div>
+`;

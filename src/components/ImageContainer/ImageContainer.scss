@@ -1,0 +1,21 @@
+@import "../../stylesheets/variables";
+
+.image-display {
+  letter-spacing: 1px;
+}
+
+.image-title {
+  margin-top: 10px;
+  color: $primary-gray;
+  font-family: 'Teko-Regular';
+  font-size: $small-font;
+}
+
+.image-description {
+  font-family: 'Teko-Light';
+  font-size: $medium-font;
+
+  @media (max-width: $phone-width) {
+    font-size: $semi-big-font;
+  }
+}

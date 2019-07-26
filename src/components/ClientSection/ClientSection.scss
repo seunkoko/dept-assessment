@@ -1,0 +1,84 @@
+@import "../../stylesheets/variables";
+
+.client-style {
+  position: absolute;
+  left: 0;
+  right: 20px;
+  margin-bottom: 30px;
+  padding: 50px;
+  text-align: center;
+  background-color: $client-color;
+  letter-spacing: 1px;
+  max-height: 700px;
+
+  @media (max-width: $phone-width) {
+    right: 0;
+    padding: 20px;
+	}
+}
+
+.client-title {
+  font-size: $big-font;
+  font-family: 'Teko-Regular';
+}
+
+.client-description {
+  font-size: $medium-font;
+  font-family: 'Teko-Light';
+  margin: 0 auto 50px auto;
+  width: 35%;
+
+  @media (max-width: $laptop-width) {
+		width: 50%;
+	}
+
+  @media (max-width: $mobile-width) {
+		width: 70%;
+	}
+
+  @media (max-width: $phone-width) {
+		width: 100%;
+	}
+}
+
+.client-logos {
+  margin: 30px 10px 0 auto;
+  width: 92%;
+  display: grid;
+  grid-template-columns: 20.5% 20.5% 20.5% 20.5%;
+  grid-column-gap: 2%;
+
+  > div {
+    height: 100px;
+    align-content: center;
+
+    position: relative;
+
+    > img {
+      max-height: 100%;
+      max-width: 100%;
+      vertical-align: middle;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      
+      transform: translate(-50%, -50%);
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  @media (max-width: $desktop-width) {
+    width: 90%;
+	}
+
+  @media (max-width: $phone-width) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 20%;
+	}
+}

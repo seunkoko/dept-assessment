@@ -1,0 +1,124 @@
+@import "../../stylesheets/variables";
+
+.message-section-style {
+  margin: 730px 0 250px 0;
+  width: 80%;
+  letter-spacing: 1px;
+  padding: 60px 0 0 10%;
+  
+  > div:last-child {
+    height: 250px;
+    display: grid;
+    grid-template-columns: 28% 70%;
+    grid-column-gap: 2%;
+
+    @media (max-width: $phone-width) {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: $phone-width) {
+    width: 100%;
+    height: auto;
+    margin: 570px 0 -30px 0;
+    padding: 20px 0 0 0;
+  }
+}
+
+#message {
+  resize: none;
+  height: 80px;
+}
+
+.question-style {
+  padding: 30px 0;
+
+  > p {
+    margin: 0;
+    width: fit-content;
+    line-height: 2.2rem;
+    font-family: 'Teko-Regular';
+    font-size: $big-font;
+
+    @media (max-width: $mobile-width) {
+      font-size: 30px;
+    }
+
+    @media (max-width: $phone-width) {
+      display: inline-block;
+      margin: 30px 0 0 5px;
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: $phone-width) {
+    padding: 0;
+    margin: auto;
+  }
+}
+
+.form-style {
+  padding: 30px 0;
+
+  > div {
+    margin-bottom: 30px;
+  }
+
+  > div:first-child {
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    grid-column-gap: 3%;
+
+    @media (max-width: $phone-width) {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.input-container {
+  font-family: 'Teko-Regular';
+
+  @media (max-width: $phone-width) {
+    margin-bottom: 20px;
+  }
+}
+
+.input-container:last-child {
+  margin-top: 20px;
+
+  @media (max-width: $phone-width) {
+    margin-top: 0;
+  }
+}
+
+.input-style {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid $faint-gray;
+  padding: 0;
+  letter-spacing: 1.5px;
+  font-family: 'Teko-Light';
+}
+
+.btn-send-message {
+  @include button-style;
+
+  width: 150px;
+  background-color: $primary-blue;
+
+  &:hover {
+    background-color: $primary-white;
+    color: $primary-blue;
+    border: 1px solid $primary-blue;
+  }
+}
+
+.message-alert-success {
+  letter-spacing: 1px;
+  font-family: 'Teko-Light';
+}

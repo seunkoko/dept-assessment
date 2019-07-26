@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainSection should render MainSection component 1`] = `
+<Fragment>
+  <div
+    className="container-fluid main-section-style"
+  >
+    <div
+      className="filter-style"
+    >
+      <div>
+        <p>
+          Show me
+        </p>
+        <FilterDropdown
+          data={
+            Array [
+              Object {
+                "id": 1,
+                "name": "Frontend Engineer",
+              },
+              Object {
+                "id": 2,
+                "name": "Backend Engineer",
+              },
+              Object {
+                "id": 3,
+                "name": "Data Scientist",
+              },
+            ]
+          }
+          displayName="all work"
+          sectionId="all-work"
+        />
+      </div>
+      <div
+        className="mr-0"
+      >
+        <p>
+          in
+        </p>
+        <FilterDropdown
+          data={
+            Array [
+              Object {
+                "id": 1,
+                "name": "E-Commerce",
+              },
+              Object {
+                "id": 2,
+                "name": "Medicine",
+              },
+              Object {
+                "id": 3,
+                "name": "Robotics",
+              },
+            ]
+          }
+          displayName="all industries"
+          sectionId="all-industries"
+        />
+      </div>
+    </div>
+    <NewsSection
+      data={
+        Array [
+          Object {
+            "description": "A summer island in the Netherlands",
+            "id": "bolcom",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "BOLCOM",
+          },
+          Object {
+            "description": "Not some average banking website",
+            "id": "kempen",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "KEMPEN",
+          },
+          Object {
+            "description": "Beautiful design meets innovative technology",
+            "id": "phillips",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "PHILIPS",
+          },
+          Object {
+            "description": "A hundred years of Mondriaan & De Stijl",
+            "id": "gemeentemuseum",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "GEMEENTEMUSEUM",
+          },
+        ]
+      }
+    />
+    <TopAd />
+    <NewsSection
+      data={
+        Array [
+          Object {
+            "description": "Delivering clarity on a global scale",
+            "id": "lightning",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "BE LIGHTNING",
+          },
+          Object {
+            "description": "Swipe to find your next holiday destination",
+            "id": "tui",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "TUI",
+          },
+        ]
+      }
+    />
+    <BottomAd />
+    <NewsSection
+      data={
+        Array [
+          Object {
+            "description": "A campaign for the limited edition letter packs",
+            "id": "chocomel",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "CHOCOMEL",
+          },
+          Object {
+            "description": "Live like a champion with Jerome Booteng",
+            "id": "jbl",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "JBL",
+          },
+          Object {
+            "description": "Innovative SEO and content strategy for Zalando",
+            "id": "zalando",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "ZALANDO",
+          },
+          Object {
+            "description": "The search for the most influential book ever",
+            "id": "konin",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "KONINKLIJKE BIBLIOTHEEK",
+          },
+        ]
+      }
+    />
+    <Quote />
+    <NewsSection
+      data={
+        Array [
+          Object {
+            "description": "Delivering complex commerce solutions",
+            "id": "liberty",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "LIBERTY GLOBAL",
+          },
+          Object {
+            "description": "Swipe to find your next holiday destination",
+            "id": "arla",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "ARLA",
+          },
+        ]
+      }
+    />
+    <ClientSection />
+    <MessageSection />
+    <Footer />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,24 @@
+@import "../../stylesheets/variables";
+
+.dropdown-style {
+  display: inline;
+  margin-right: 5px;
+
+  > .dropdown-toggle {
+    @include remove-button-style;
+    
+    border-bottom: 1px solid $primary-black;
+
+    &:hover {
+      color: $primary-blue;
+      border-bottom: 1px solid $primary-blue;
+    }
+  }
+}
+
+.dropdown-item {
+  
+  &:hover {
+    color: $primary-blue;
+  }
+}

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterDropdown should render FilterDropdown component 1`] = `
+<Fragment>
+  <div
+    className="dropdown show dropdown-style"
+  >
+    <Link
+      aria-expanded="false"
+      aria-haspopup="true"
+      className="btn dropdown-toggle"
+      data-toggle="dropdown"
+      role="button"
+      to="#"
+    />
+    <div
+      className="dropdown-menu"
+    >
+      <Link
+        className="dropdown-item"
+        key="1"
+        to="#"
+      >
+        Frontend Engineer
+      </Link>
+      <Link
+        className="dropdown-item"
+        key="2"
+        to="#"
+      >
+        Backend Engineer
+      </Link>
+      <Link
+        className="dropdown-item"
+        key="3"
+        to="#"
+      >
+        Data Scientist
+      </Link>
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomAd should render BottomAd component 1`] = `
+<Fragment>
+  <div
+    className="bottom-ad-style"
+  >
+    <div
+      className="news-content"
+    >
+      <AdContent
+        firstNews={
+          Object {
+            "id": "bottomFirstNews",
+            "moreDescription": "",
+            "news": "Enhancing customer experience for personalised holiday planning using real time data",
+            "title": "BUTLINS",
+          }
+        }
+        secondNews={
+          Object {
+            "id": "bottomSecondNews",
+            "moreDescription": "",
+            "news": "Predicting booking behavior for holidays with smart data, voice search and machine learning",
+            "title": "VACANSESELECT",
+          }
+        }
+      />
+    </div>
+    <div
+      className="image-ad hide-on-phone"
+    >
+      <ImageContainer
+        data={
+          Object {
+            "description": "Rethinking the online ecosystem",
+            "id": "bottomAdDImage",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "Florensis",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

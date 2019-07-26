@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdContent should render AdContent component 1`] = `
+<Fragment>
+  <div
+    className="news-display"
+  >
+    <div
+      className="first-news"
+    >
+      <div
+        className="title"
+      >
+        BUTLINS
+      </div>
+      <div
+        className="description"
+      >
+        Enhancing customer experience for personalised holiday planning using real time data
+      </div>
+      <div
+        className="view-case-link"
+      >
+        <ViewCaseLink
+          id="bottomFirstNews"
+          moreDescription=""
+        />
+      </div>
+    </div>
+    <div
+      className="second-news"
+    >
+      <div
+        className="title"
+      >
+        VACANSESELECT
+      </div>
+      <div
+        className="description"
+      >
+        Predicting booking behavior for holidays with smart data, voice search and machine learning
+      </div>
+      <div
+        className="view-case-link"
+      >
+        <ViewCaseLink
+          id="bottomSecondNews"
+          moreDescription=""
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

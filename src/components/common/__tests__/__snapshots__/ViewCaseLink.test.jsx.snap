@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewCaseLink should render ViewCaseLink component 1`] = `
+<Fragment>
+  <Link
+    aria-expanded="false"
+    className="btn view-case-link"
+    data-target="#undefined"
+    data-toggle="collapse"
+    role="button"
+    to="#undefined"
+  >
+    <i
+      className="fas fa-caret-right mr-2"
+    />
+    View Case
+  </Link>
+  <div
+    className="collapse more-description"
+  >
+    <div
+      className=""
+    />
+  </div>
+</Fragment>
+`;

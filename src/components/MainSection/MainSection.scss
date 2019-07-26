@@ -1,0 +1,39 @@
+@import "../../stylesheets/variables";
+
+.main-section-style {
+  margin: 30px auto;
+  padding: 0;
+  height: 300px;
+  width: 94%;
+
+  @media (max-width: $phone-width) {
+    margin: 20px auto;
+    width: 90%;
+	}
+}
+
+.filter-style {
+  width: 100%;
+  text-align: right;
+
+  > div {
+    font-family: 'Teko-Regular';
+    font-size: $medium-font;
+    color: $primary-gray;
+    margin-right: 10px;
+    display: inline-block;
+
+    > p {
+      display: inline-block;
+      margin-right: 6px;
+    }
+
+    @media (max-width: $phone-width) {
+      display: flex;
+    }
+  }
+
+  @media (max-width: $phone-width) {
+    text-align: left;
+  }
+}

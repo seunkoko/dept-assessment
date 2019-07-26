@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: 'Teko-Bold';
+  src: url('assets/fonts/Teko-Bold.ttf');
+}
+  
+@font-face {
+  font-family: 'Teko-Light';
+  src: url('assets/fonts/Teko-Light.ttf');
+}
+  
+@font-face {
+  font-family: 'Teko-Medium';
+  src: url('assets/fonts/Teko-Medium.ttf');
+}
+  
+@font-face {
+  font-family: 'Teko-Regular';
+  src: url('assets/fonts/Teko-Regular.ttf');
+}
+  
+@font-face {
+  font-family: 'Teko-SemiBold';
+  src: url('assets/fonts/Teko-SemiBold.ttf');
+}
+
+body {
+  margin: 0px;
+  font-family: Teko-Bold;
+  padding: 0 17%;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    padding: 0 7%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    padding: 0 2%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  body {
+    padding: 0;
+  }
+}
+

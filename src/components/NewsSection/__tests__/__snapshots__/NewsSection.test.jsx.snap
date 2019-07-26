@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsSection should render NewsSection component 1`] = `
+<Fragment>
+  <div
+    className="news-style"
+  >
+    <div
+      className="news-item"
+      key="bolcom"
+    >
+      <ImageContainer
+        data={
+          Object {
+            "description": "A summer island in the Netherlands",
+            "id": "bolcom",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "BOLCOM",
+          }
+        }
+      />
+    </div>
+    <div
+      className="news-item"
+      key="kempen"
+    >
+      <ImageContainer
+        data={
+          Object {
+            "description": "Not some average banking website",
+            "id": "kempen",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "KEMPEN",
+          }
+        }
+      />
+    </div>
+    <div
+      className="news-item"
+      key="phillips"
+    >
+      <ImageContainer
+        data={
+          Object {
+            "description": "Beautiful design meets innovative technology",
+            "id": "phillips",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "PHILIPS",
+          }
+        }
+      />
+    </div>
+    <div
+      className="news-item"
+      key="gemeentemuseum"
+    >
+      <ImageContainer
+        data={
+          Object {
+            "description": "A hundred years of Mondriaan & De Stijl",
+            "id": "gemeentemuseum",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "GEMEENTEMUSEUM",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderModal should render HeaderModal component 1`] = `
+<Fragment>
+  <div
+    aria-hidden="true"
+    className="modal header-modal-style"
+    data-easein="bounce"
+    id="headerModal"
+    keyboard="true"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="modal-dialog modal-full"
+      role="document"
+    >
+      <div
+        className="modal-content header-modal-content"
+      >
+        <div
+          className="hm-header"
+        >
+          <nav
+            className="navbar header-style hm-style"
+          >
+            <ul
+              className="nav justify-content-between pl-0 no-underline"
+            >
+              <li
+                className="nav-item pl-0"
+              >
+                <Link
+                  className="nav-link color-white pl-0"
+                  to="#"
+                >
+                  DEPT
+                </Link>
+              </li>
+              <button
+                aria-label="Close"
+                className="close"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i
+                  className="fas fa-times color-white"
+                />
+              </button>
+            </ul>
+          </nav>
+        </div>
+        <div
+          className="hm-body"
+        >
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-div-1-content hide-on-phone"
+            >
+              <p
+                className="hide-on-phone"
+              >
+                LANDEN
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                GLOBAL
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                NEDERLAND
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                UNITED STATES
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                IRELAND
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                UNITED KINGDOM
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                DEUTSCHLAND
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                SCHWEIZ
+              </p>
+            </div>
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              HOME
+            </div>
+            <div
+              className="hm-div-line"
+            />
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              WERK
+            </div>
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              OVER
+            </div>
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              DIENSTEN
+            </div>
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              PARTNERS
+            </div>
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              STORIES
+            </div>
+            <div
+              className="hm-div-line"
+            />
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-div-7-content hide-on-phone"
+            >
+              <p
+                className="hide-on-phone"
+              >
+                FACEBOOK
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                TWITTER
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                INSTAGRAM
+              </p>
+              <p
+                className="hide-on-phone"
+              >
+                LINKEDIN
+              </p>
+            </div>
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              VACATURES
+            </div>
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              EVENTS
+            </div>
+            <div
+              className="hm-div-line"
+            />
+          </div>
+          <div
+            className="hm-div-style"
+          >
+            <div
+              className="hm-menu-style"
+            >
+              <i
+                className="fas fa-caret-right hm-caret-right"
+              />
+              CONTACT
+            </div>
+            <div
+              className="hm-div-line"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

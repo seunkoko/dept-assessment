@@ -1,0 +1,162 @@
+@import "../../stylesheets/variables";
+
+
+.header-modal-style {
+  z-index: 10000;
+  background-color: $primary-white;
+  letter-spacing: 1px;
+}
+
+.modal-full {
+  min-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1.5vh 2.5vw;
+
+  @media (max-width: $phone-width) {
+    padding: 0;
+  }
+}
+
+.header-modal-content {
+  background-color: $footer-black;
+  color: $primary-white;
+  border-radius: 0;
+  width: 95vw;
+  height: 97vh;
+  display: grid;
+  grid-template-rows: 10% 90%;
+
+  @media (max-width: $phone-width) {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px 15px;
+  }
+}
+
+.hm-bar1, .hm-bar2 {
+  width: 20px;
+  height: 2px;
+  background-color: $primary-white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.transition-bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, -3px);
+  transform: rotate(-45deg) translate(-8px, -3px);
+}
+
+.transition-bar2 {
+  -webkit-transform: rotate(45deg) translate(-7px, 4px);
+  transform: rotate(45deg) translate(-7px, 4px);
+}
+
+.hm-caret-right {
+  margin-right: 5px;
+}
+
+.hm-body {
+  @include body-rules;
+
+  display: grid;
+  grid-template-rows: 25% 13% 13% 13% 13% 13% 13% 13% 13%;
+  overflow-y: scroll;
+
+  > div {
+    border-bottom: 1px solid $header-gray;
+    width: inherit;
+  }
+
+  > div:first-child, div:nth-child(6) {
+    position: relative;
+    border:none;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: space-between;
+    
+    > .hm-div-line {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      border-bottom: 1px solid $footer-gray;
+      width: 90%;
+
+      @media (max-width: $phone-width) {
+        width: 100%;
+      }
+    }
+  }
+
+  > div:last-child {
+    border: none;
+  }
+
+  @media (max-width: $phone-width) {
+    display: grid;
+    grid-template-rows: 15% 10% 10% 10% 10% 10% 10% 10% 10%;
+  }
+}
+
+.hm-div-style {
+  position: relative;
+
+  > div {
+
+    > p {
+      cursor: pointer;
+
+      &:hover {
+        color: $footer-gray;
+      }
+    }
+  }
+
+  > .hm-div-1-content {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    font-family: 'Teko-Light';
+    width: fit-content;
+  }
+
+  > .hm-div-7-content {
+    height: 100%;
+    display: grid;
+    width: fit-content;
+    grid-template-rows: 20% 20% 20% 20%;
+    font-family: 'Teko-Light';
+  }
+}
+
+.hm-menu-style {
+  @include body-rules;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'Teko-Regular';
+  font-size: $header-banner-font;
+  cursor: pointer;
+
+  > .hm-caret-right {
+    margin-right: 20px;
+    color: $footer-black;
+  }
+
+  &:hover {
+
+    > .hm-caret-right {
+      color: $primary-white;
+    }
+  }
+
+  @media (max-width: $phone-width) {
+    font-size: $big-font;
+  }
+}

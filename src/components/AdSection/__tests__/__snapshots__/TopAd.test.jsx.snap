@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopAd should render TopAd component 1`] = `
+<Fragment>
+  <div
+    className="top-ad-style"
+  >
+    <div
+      className="image-ad"
+    >
+      <ImageContainer
+        data={
+          Object {
+            "description": "Rethinking the online ecosystem",
+            "id": "topAdImage",
+            "image": "test-file-stub",
+            "moreDescription": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+            "title": "Florensis",
+          }
+        }
+      />
+    </div>
+    <div
+      className="news-content"
+    >
+      <AdContent
+        firstNews={
+          Object {
+            "id": "topFirstNews",
+            "moreDescription": "",
+            "news": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+            "title": "MICROSOFT",
+          }
+        }
+        secondNews={
+          Object {
+            "id": "topSecondNews",
+            "moreDescription": "",
+            "news": "Integrating existing content into O’Neill’s new e-commerce platform",
+            "title": "O'NEIL",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonViewCase should render ButtonViewCase component 1`] = `
+<button
+  className="btn button-style view-case-style"
+  type="button"
+>
+  VIEW CASE
+</button>
+`;

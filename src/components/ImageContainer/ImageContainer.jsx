@@ -5,7 +5,10 @@ import ViewCaseLink from '../common/ViewCaseLink';
 
 import './ImageContainer.scss';
 
-const ImageContainer = ({ data }) => {
+const ImageContainer = ({
+  data,
+  handleViewLinkCase,
+}) => {
 	return (
     <>
       <div className="image-display">
@@ -20,6 +23,7 @@ const ImageContainer = ({ data }) => {
         <ViewCaseLink
           id={data.id}
           moreDescription={data.moreDescription}
+          handleViewLinkCase={handleViewLinkCase}
         />
       </div>
     </>

@@ -18,7 +18,7 @@ const MessageSection = ({
 }) => {
 	return (
     <>
-      <div className="container-fluid message-section-style">
+      <div id="contact" className="container-fluid message-section-style">
         {
           successMessage && <div className="alert alert-success message-alert-success" role="alert">
             {successMessage}

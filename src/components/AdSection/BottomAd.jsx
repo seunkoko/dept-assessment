@@ -8,12 +8,16 @@ import './Ad.scss';
 
 import { imageData, bottomFirstNews, bottomSecondNews } from '../../utils/adData';
 
-const BottomAd = (props) => {
+const BottomAd = ({
+  id,
+  handleViewLinkCase,
+}) => {
 	return (
     <>
-      <div className="bottom-ad-style">
+      <div id={id} className="bottom-ad-style">
         <div className="news-content">
           <AdContent
+            handleViewLinkCase={handleViewLinkCase}
             firstNews={bottomFirstNews}
             secondNews={bottomSecondNews}
           />
@@ -27,6 +31,7 @@ const BottomAd = (props) => {
                 id: 'bottomAdDImage'
               }
             }
+            handleViewLinkCase={handleViewLinkCase}
           />
         </div>
       </div>

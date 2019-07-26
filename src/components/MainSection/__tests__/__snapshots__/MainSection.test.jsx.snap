@@ -94,8 +94,11 @@ exports[`MainSection should render MainSection component 1`] = `
           },
         ]
       }
+      id="werk"
     />
-    <TopAd />
+    <TopAd
+      id="over"
+    />
     <NewsSection
       data={
         Array [
@@ -115,8 +118,11 @@ exports[`MainSection should render MainSection component 1`] = `
           },
         ]
       }
+      id="deinsten"
     />
-    <BottomAd />
+    <BottomAd
+      id="stories"
+    />
     <NewsSection
       data={
         Array [
@@ -150,6 +156,7 @@ exports[`MainSection should render MainSection component 1`] = `
           },
         ]
       }
+      id="vacatures"
     />
     <Quote />
     <NewsSection
@@ -171,8 +178,11 @@ exports[`MainSection should render MainSection component 1`] = `
           },
         ]
       }
+      id="events"
     />
-    <ClientSection />
+    <ClientSection
+      id="partners"
+    />
     <MessageSection />
     <Footer />
   </div>

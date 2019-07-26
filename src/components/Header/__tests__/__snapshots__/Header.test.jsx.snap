@@ -4,6 +4,7 @@ exports[`Header should render Header component 1`] = `
 <Fragment>
   <div
     className="container-fluid carousel-style"
+    name="home"
   >
     <nav
       className="navbar fixed-top header-style scroll-style"

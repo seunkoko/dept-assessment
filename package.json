@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "jest -u",
     "test:watch": "jest --watch",
     "test:coverage": "jest -u --coverage --colors",
     "eject": "react-scripts eject"

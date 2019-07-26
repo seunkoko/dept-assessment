@@ -32,6 +32,7 @@ const MainSection = ({
   handleAlertClose,
   handleOnChange,
   handleSubmitMessage,
+  handleViewLinkCase,
 }) => {
 	return (
     <>
@@ -60,23 +61,35 @@ const MainSection = ({
 
         {/* First News Section */}
         <NewsSection
+          id="werk"
           data={firstNewsData}
+          handleViewLinkCase={handleViewLinkCase}
         />
 
         {/* Top Ad Section */}
-        <TopAd />
+        <TopAd
+          id="over"
+          handleViewLinkCase={handleViewLinkCase}
+        />
 
         {/* Second News Section */}
         <NewsSection
+          id="deinsten"
           data={secondNewsData}
+          handleViewLinkCase={handleViewLinkCase}
         />
 
         {/* Bottom Ad Section */}
-        <BottomAd />
+        <BottomAd
+          id="stories"
+          handleViewLinkCase={handleViewLinkCase}
+        />
 
         {/* Third News Section */}
         <NewsSection
+          id="vacatures"
           data={thirdNewsData}
+          handleViewLinkCase={handleViewLinkCase}
         />
 
         {/* Quote */}
@@ -84,11 +97,13 @@ const MainSection = ({
 
         {/* Fourth News Section */}
         <NewsSection
+          id="events"
           data={fourthNewsData}
+          handleViewLinkCase={handleViewLinkCase}
         />
 
         {/* Client Section */}
-        <ClientSection />
+        <ClientSection id="partners" />
 
         {/* Message Section */}
         <MessageSection

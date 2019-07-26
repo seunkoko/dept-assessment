@@ -5,10 +5,14 @@ import ImageContainer from '../ImageContainer/ImageContainer';
 
 import './NewsSection.scss';
 
-const NewsSection = ({ data }) => {
+const NewsSection = ({
+  data,
+  id,
+  handleViewLinkCase,
+}) => {
 	return (
     <>
-      <div className="news-style">
+      <div id={id} className="news-style">
         {
           data.map(news => {
             const newsToDisplay = <div
@@ -17,6 +21,7 @@ const NewsSection = ({ data }) => {
               >
                 <ImageContainer
                   data={news}
+                  handleViewLinkCase={handleViewLinkCase}
                 />
               </div>
             return newsToDisplay;

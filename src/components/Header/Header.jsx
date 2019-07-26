@@ -7,10 +7,10 @@ import HeaderModal from '../Modals/HeaderModal';
 
 import './Header.scss';
 
-const Header = (props) => {
+const Header = ({handleModalLink}) => {
 	return (
     <>
-      <div className="container-fluid carousel-style">
+      <div name="home" className="container-fluid carousel-style">
         {/* Navigation */}
         <nav className="navbar fixed-top header-style scroll-style">
           <ul className="nav justify-content-between scroll-ul-style pl-0">
@@ -42,7 +42,9 @@ const Header = (props) => {
       <ButtonViewCase />
 
       {/* Modal */}
-      <HeaderModal />
+      <HeaderModal
+        handleModalLink={handleModalLink}
+      />
     </>
 	);
 };

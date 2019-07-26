@@ -22,29 +22,17 @@ const Footer = (props) => {
             </div>
 
             <div className="footer-second-col">
-              <p>
-                WORK
-              </p>
+              <p><a href="#werk">WORK</a></p>
 
-              <p>
-                SERVICE
-              </p>
+              <p><a href="#deinsten">SERVICE</a></p>
 
-              <p>
-                STORIES
-              </p>
+              <p><a href="#stories">STORIES</a></p>
 
-              <p>
-                ABOUT
-              </p>
+              <p><a href="#partners">ABOUT</a></p>
 
-              <p>
-                CAREERS
-              </p>
+              <p><a href="#vacatures">CAREERS</a></p>
 
-              <p>
-                CONTACT
-              </p>
+              <p><a href="#contact">CONTACT</a></p>
             </div>
 
             <div className="footer-third-col">

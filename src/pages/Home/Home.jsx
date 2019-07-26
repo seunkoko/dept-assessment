@@ -17,10 +17,30 @@ class Home extends Component {
     successMessage: '',
   }
 
+  handleModalLink = (link) => {
+    window.location.href = link;
+  }
+
   handleAlertClose = (event) => {
     event.preventDefault();
     
     this.setState({ successMessage: "" });
+  }
+
+  handleViewLinkCase = (event, id) => {
+    event.preventDefault();
+
+    const element = document.getElementById(id);
+
+    if (element.classList.contains('fa-caret-right')) {
+      element.classList.remove('fa-caret-right');
+      element.classList.add('fa-caret-down');
+    } else {
+      element.classList.remove('fa-caret-down');
+      element.classList.add('fa-caret-right');
+    }
+
+    // document.getElementById(id).remove('fa-caret-right');
   }
 
   handleOnChange = (event) => {
@@ -78,7 +98,9 @@ class Home extends Component {
       <div className="Home">
 
         {/* Header */}
-        <Header />
+        <Header
+          handleModalLink={this.handleModalLink}
+        />
 
         {/* Main Section */}
         <MainSection
@@ -92,6 +114,7 @@ class Home extends Component {
           handleAlertClose={this.handleAlertClose}
           handleOnChange={this.handleOnChange}
           handleSubmitMessage={this.handleSubmitMessage}
+          handleViewLinkCase={this.handleViewLinkCase}
         />
 
       </div>

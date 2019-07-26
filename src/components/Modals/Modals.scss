@@ -144,15 +144,20 @@
   font-size: $header-banner-font;
   cursor: pointer;
 
-  > .hm-caret-right {
-    margin-right: 20px;
-    color: $footer-black;
-  }
-
-  &:hover {
+  > a {
+    color: $primary-white;
 
     > .hm-caret-right {
-      color: $primary-white;
+      margin-right: 20px;
+      color: $footer-black;
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      > .hm-caret-right {
+        color: $primary-white;
+      }
     }
   }
 

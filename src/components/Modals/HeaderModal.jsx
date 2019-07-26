@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import './Modals.scss';
 
 
-const HeaderModal = (props) => {
+const HeaderModal = ({ handleModalLink }) => {
 	return (
     <>
       <div
@@ -16,6 +16,7 @@ const HeaderModal = (props) => {
         tabIndex="-1"
         role="dialog"
         aria-hidden="true"
+        backdrop="static"
         keyboard="true"
       >
         <div className="modal-dialog modal-full" role="document">
@@ -51,8 +52,7 @@ const HeaderModal = (props) => {
                 </div>
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  HOME
+                  <a href="#home" data-dismiss="modal" onClick={() => {handleModalLink('#home')}}><i className="fas fa-caret-right hm-caret-right"></i>HOME</a>
                 </div>
                 
                 <div className="hm-div-line"></div>
@@ -61,8 +61,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  WERK
+                  <a href="#werk" data-dismiss="modal" onClick={() => {handleModalLink('#werk')}}><i className="fas fa-caret-right hm-caret-right"></i>WERK</a>
                 </div>
 
               </div>
@@ -70,8 +69,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  OVER
+                  <a href="#over" data-dismiss="modal" onClick={() => {handleModalLink('#over')}}><i className="fas fa-caret-right hm-caret-right"></i>OVER</a>
                 </div>
 
               </div>
@@ -79,8 +77,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  DIENSTEN
+                  <a href="#diensten" data-dismiss="modal" onClick={() => {handleModalLink('#diensten')}}><i className="fas fa-caret-right hm-caret-right"></i>DIENSTEN</a>
                 </div>
 
               </div>
@@ -88,8 +85,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  PARTNERS
+                  <a href="#partners" data-dismiss="modal" onClick={() => {handleModalLink('#partners')}}><i className="fas fa-caret-right hm-caret-right"></i>PARTNERS</a>
                 </div>
                 
               </div>
@@ -97,8 +93,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  STORIES
+                  <a href="#stories" data-dismiss="modal" onClick={() => {handleModalLink('#stories')}}><i className="fas fa-caret-right hm-caret-right"></i>STORIES</a>
                 </div>
                 
                 <div className="hm-div-line"></div>
@@ -113,8 +108,7 @@ const HeaderModal = (props) => {
                 </div>
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  VACATURES
+                  <a href="#vacatures" data-dismiss="modal" onClick={() => {handleModalLink('#vacatures')}}><i className="fas fa-caret-right hm-caret-right"></i>VACATURES</a>
                 </div>
                 
               </div>
@@ -122,8 +116,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  EVENTS
+                  <a href="#events" data-dismiss="modal" onClick={() => {handleModalLink('#events')}}><i className="fas fa-caret-right hm-caret-right"></i>EVENTS</a>
                 </div>
                 
                 <div className="hm-div-line"></div>
@@ -132,8 +125,7 @@ const HeaderModal = (props) => {
               <div className="hm-div-style">
 
                 <div className="hm-menu-style">
-                  <i className="fas fa-caret-right hm-caret-right"></i>
-                  CONTACT
+                  <a href="#contact" data-dismiss="modal" onClick={() => {handleModalLink('#contact')}}><i className="fas fa-caret-right hm-caret-right"></i>CONTACT</a>
                 </div>
                 
                 <div className="hm-div-line"></div>

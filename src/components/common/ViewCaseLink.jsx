@@ -7,6 +7,7 @@ import './common.scss';
 const ViewCaseLink = ({
   id,
   moreDescription,
+  handleViewLinkCase,
 }) => {
 	return (
     <>
@@ -16,10 +17,11 @@ const ViewCaseLink = ({
         role="button"
         to={`#${id}`}
         data-target={`#${id}`}
+        onClick={(event) => {handleViewLinkCase(event, `caret-${id}`)}}
         aria-expanded="false"
         aria-controls={id}
       >
-        <i className="fas fa-caret-right mr-2" />
+        <i id={`caret-${id}`} className="fas fa-caret-right mr-2" />
         View Case
       </Link>
 

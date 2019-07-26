@@ -8,6 +8,7 @@ import './Ad.scss';
 const AdContent = ({
   firstNews,
   secondNews,
+  handleViewLinkCase,
 }) => {
 	return (
     <>
@@ -25,6 +26,7 @@ const AdContent = ({
             <ViewCaseLink
               id={firstNews.id}
               moreDescription={firstNews.moreDescription}
+              handleViewLinkCase={handleViewLinkCase}
             />
           </div>
         </div>
@@ -42,6 +44,7 @@ const AdContent = ({
             <ViewCaseLink
               id={secondNews.id}
               moreDescription={secondNews.moreDescription}
+              handleViewLinkCase={handleViewLinkCase}
             />
           </div>
         </div>

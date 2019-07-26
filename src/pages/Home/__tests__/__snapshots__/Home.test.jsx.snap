@@ -4,13 +4,16 @@ exports[`Home should render Home component 1`] = `
 <div
   className="Home"
 >
-  <Header />
+  <Header
+    handleModalLink={[Function]}
+  />
   <MainSection
     email=""
     emailError=""
     handleAlertClose={[Function]}
     handleOnChange={[Function]}
     handleSubmitMessage={[Function]}
+    handleViewLinkCase={[Function]}
     message=""
     messageError=""
     name=""

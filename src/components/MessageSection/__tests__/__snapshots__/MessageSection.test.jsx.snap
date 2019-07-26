@@ -4,6 +4,7 @@ exports[`MessageSection should render MessageSection component 1`] = `
 <Fragment>
   <div
     className="container-fluid message-section-style"
+    id="contact"
   >
     <div>
       <div

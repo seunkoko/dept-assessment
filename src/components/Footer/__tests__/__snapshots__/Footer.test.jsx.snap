@@ -22,22 +22,46 @@ exports[`Footer should render Footer component 1`] = `
           className="footer-second-col"
         >
           <p>
-            WORK
+            <a
+              href="#werk"
+            >
+              WORK
+            </a>
           </p>
           <p>
-            SERVICE
+            <a
+              href="#deinsten"
+            >
+              SERVICE
+            </a>
           </p>
           <p>
-            STORIES
+            <a
+              href="#stories"
+            >
+              STORIES
+            </a>
           </p>
           <p>
-            ABOUT
+            <a
+              href="#partners"
+            >
+              ABOUT
+            </a>
           </p>
           <p>
-            CAREERS
+            <a
+              href="#vacatures"
+            >
+              CAREERS
+            </a>
           </p>
           <p>
-            CONTACT
+            <a
+              href="#contact"
+            >
+              CONTACT
+            </a>
           </p>
         </div>
         <div

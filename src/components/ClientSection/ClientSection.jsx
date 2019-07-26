@@ -20,10 +20,10 @@ import walibi from '../../assets/images/logos/Walibi_logo_zwart.svg';
 import zalando from '../../assets/images/logos/Zalando_logo_zwart.svg';
 import ziggo from '../../assets/images/logos/Ziggo_logo_zwart.svg';
 
-const ClientSection = (props) => {
+const ClientSection = ({ id }) => {
 	return (
     <>
-      <div className="client-style">
+      <div id={id} className="client-style">
         <p className="client-title">
           CLIENTS
         </p>

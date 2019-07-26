@@ -7,11 +7,13 @@ exports[`ViewCaseLink should render ViewCaseLink component 1`] = `
     className="btn view-case-link"
     data-target="#undefined"
     data-toggle="collapse"
+    onClick={[Function]}
     role="button"
     to="#undefined"
   >
     <i
       className="fas fa-caret-right mr-2"
+      id="caret-undefined"
     />
     View Case
   </Link>

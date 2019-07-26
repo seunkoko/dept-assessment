@@ -4,6 +4,7 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
 <Fragment>
   <div
     aria-hidden="true"
+    backdrop="static"
     className="modal header-modal-style"
     data-easein="bounce"
     id="headerModal"
@@ -106,10 +107,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              HOME
+              <a
+                data-dismiss="modal"
+                href="#home"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                HOME
+              </a>
             </div>
             <div
               className="hm-div-line"
@@ -121,10 +128,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              WERK
+              <a
+                data-dismiss="modal"
+                href="#werk"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                WERK
+              </a>
             </div>
           </div>
           <div
@@ -133,10 +146,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              OVER
+              <a
+                data-dismiss="modal"
+                href="#over"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                OVER
+              </a>
             </div>
           </div>
           <div
@@ -145,10 +164,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              DIENSTEN
+              <a
+                data-dismiss="modal"
+                href="#diensten"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                DIENSTEN
+              </a>
             </div>
           </div>
           <div
@@ -157,10 +182,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              PARTNERS
+              <a
+                data-dismiss="modal"
+                href="#partners"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                PARTNERS
+              </a>
             </div>
           </div>
           <div
@@ -169,10 +200,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              STORIES
+              <a
+                data-dismiss="modal"
+                href="#stories"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                STORIES
+              </a>
             </div>
             <div
               className="hm-div-line"
@@ -208,10 +245,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              VACATURES
+              <a
+                data-dismiss="modal"
+                href="#vacatures"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                VACATURES
+              </a>
             </div>
           </div>
           <div
@@ -220,10 +263,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              EVENTS
+              <a
+                data-dismiss="modal"
+                href="#events"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                EVENTS
+              </a>
             </div>
             <div
               className="hm-div-line"
@@ -235,10 +284,16 @@ exports[`HeaderModal should render HeaderModal component 1`] = `
             <div
               className="hm-menu-style"
             >
-              <i
-                className="fas fa-caret-right hm-caret-right"
-              />
-              CONTACT
+              <a
+                data-dismiss="modal"
+                href="#contact"
+                onClick={[Function]}
+              >
+                <i
+                  className="fas fa-caret-right hm-caret-right"
+                />
+                CONTACT
+              </a>
             </div>
             <div
               className="hm-div-line"
